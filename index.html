@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakso Koko - Penjualan Bakso Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>BAKSO KOKO BOY </h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">MENU KAMI </a></li>
+                <li><a href="#about">ALAMAT KAMI</a></li>
+                <li><a href="#contact">KONTAK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Selamat Datang di Bakso koko boy</h2>
+        <p>Temukan berbagai macam varian bakso lezat kami!</p>
+        <a href="#menu" class="btn">Lihat Menu</a>
+    </section>
+
+    <section id="menu">
+        <h2>Menu Kami</h2>
+        <div class="menu-item">
+            <h3>Bakso Biasa</h3>
+            <p>Rp10.000</p>
+            <img src="bakso_biasa.jpg" alt="Bakso Biasa">
+            <button>Ayo buruan dicoba </button>
+        </div>
+        <div class="menu-item">
+            <h3>Bakso Super</h3>
+            <p>Rp60.000</p>
+            <img src="bakso 1.jpg" alt="Bakso Super">
+            <button>Ayo buruan dicoba</button>
+        </div>
+        <img src="bakso 2.jpg"alt="bakso larva">
+        <img src="bakso 3.jpg"alt="bakso mercon">
+        <img src="bakso 4.jpg"alt="bakso kerucut">
+        <img src="bakso 5.jpg"alt="bakso selimut">
+        <img src="bakso 6.jpg"alt="bakso setan">
+        <img src="bakso 7.jpg"alt="bakso urat">
+        <img src="bakso 8.jpg"alt="bakso hati">
+    </section>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Sekarang</title>
+    <style>
+        #pesanSekarangBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50; /* Warna hijau */
+            color:gray;
+            border: none;
+            cursor: pointer;
+        }
+
+        #pesanSekarangBtn:disabled {
+            background-color: #ff9900; /* Warna abu-abu untuk tombol yang dinonaktifkan */
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <button id="pesanSekarangBtn" disabled>Pesan Sekarang</button>
+
+    <script>
+        function aktifkanTombol() {
+            const tombol = document.getElementById('pesanSekarangBtn');
+            tombol.disabled = false;
+        }
+        setTimeout(aktifkanTombol, 3000);
+        document.getElementById('pesanSekarangBtn').addEventListener('click', function() {
+            alert(' pesan sekarang ');
+            window.location.href = 'https://shopee.co.id/Koko-Boy-Bakso-Premium-Daging-Sapi-Asli-(Beef-Meatball)-Isi-20-25-pcs-300gr-(Siap-Masak)-Halal-i.906656755.24709904629'
+        });
+    </script>
+</body>
+</html>
+    <section id="ALAMAT">
+        <h2>Alamat Kami </h2>
+        <p>Jl. Perdagangan, Lhokseumawe no 15, Kec. Banda Sakti, Kota Lhokseumawe, Aceh.</p>
+        <img src="koko.jpg" alt="Bakso Koko">
+    </section>
+
+    <section id="contact">
+        <h2> Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau ingin memesan, hubungi kami di:</p>
+        <p>Email: alfi@gmail.com</p>
+        <p>Telepon: 0812-3456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bakso Koko boy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
